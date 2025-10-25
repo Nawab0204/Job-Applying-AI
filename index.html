@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeForge AI | Stop Applying, Start Interviewing</title>
+    <meta name="description" content="Empower your job search with an AI-driven resume and cover letter builder that beats ATS and lands you interviews.">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #020617; /* Slate 950 */
+        }
+        .gradient-text {
+            background: linear-gradient(90deg, #4f46e5, #0ea5e9);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .glow-button {
+            box-shadow: 0 0 5px #4f46e5, 0 0 15px #4f46e5, 0 0 25px #4f46e5;
+        }
+        #particles-js {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-300">
+
+    <header class="bg-slate-950/70 backdrop-blur-lg sticky top-0 z-50 border-b border-slate-800">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-white">
+                ResumeForge<span class="text-indigo-400">AI</span>
+            </a>
+            <div class="hidden md:flex space-x-8 items-center">
+                <a href="#features" class="hover:text-indigo-400 transition-colors">Features</a>
+                <a href="#why-us" class="hover:text-indigo-400 transition-colors">Why Us?</a>
+                <a href="#pricing" class="hover:text-indigo-400 transition-colors">Pricing</a>
+            </div>
+            <div class="hidden md:flex items-center space-x-4">
+                <a href="#" class="hover:text-indigo-400 transition-colors">Log In</a>
+                <a href="#pricing" class="bg-indigo-600 hover:bg-indigo-500 text-white font-semibold px-5 py-2 rounded-lg shadow-md transition-all transform hover:scale-105">
+                    Sign Up for Free
+                </a>
+            </div>
+            <div class="md:hidden">
+                <button id="mobile-menu-button" class="text-white focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden px-6 pb-4 space-y-2">
+            <a href="#features" class="block hover:text-indigo-400 transition-colors py-2">Features</a>
+            <a href="#why-us" class="block hover:text-indigo-400 transition-colors py-2">Why Us?</a>
+            <a href="#pricing" class="block hover:text-indigo-400 transition-colors py-2">Pricing</a>
+            <hr class="border-slate-700 my-2">
+            <a href="#" class="block hover:text-indigo-400 transition-colors py-2">Log In</a>
+            <a href="#pricing" class="block bg-indigo-600 hover:bg-indigo-500 text-white text-center font-semibold px-5 py-2 mt-2 rounded-lg shadow-md transition-all">
+                Sign Up for Free
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <section class="relative py-20 md:py-32 overflow-hidden">
+            <div id="particles-js"></div>
+            <div class="container mx-auto px-6 text-center relative z-10">
+                <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-tight mb-4" data-aos="fade-down">
+                    Stop Applying. <span class="gradient-text">Start Interviewing.</span>
+                </h1>
+                <p class="text-lg md:text-xl max-w-3xl mx-auto text-slate-400 mb-8" data-aos="fade-down" data-aos-delay="200">
+                    Our AI turns your experience into perfectly tailored, ATS-optimized resumes and cover letters that land you the job. Stop getting ghosted by the "resume black hole."
+                </p>
+                <div data-aos="fade-up" data-aos-delay="400">
+                    <a href="#pricing" class="bg-indigo-600 hover:bg-indigo-500 text-white font-bold text-lg px-8 py-4 rounded-lg shadow-lg transition-all transform hover:scale-105 glow-button">
+                        Create Your Winning Resume for Free
+                    </a>
+                </div>
+                
+                <div class="mt-16 max-w-5xl mx-auto p-4 rounded-xl" data-aos="fade-up" data-aos-delay="600">
+                     <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop" alt="AI Dashboard showing analytics" class="rounded-xl border-2 border-slate-700 shadow-2xl shadow-indigo-500/10">
+                </div>
+            </div>
+        </section>
+
+        <section class="py-20 bg-slate-900/50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12" data-aos="fade-up">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Why Do Qualified Candidates Get Rejected?</h2>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8 text-center">
+                    <div class="bg-slate-800/50 p-8 rounded-lg border border-slate-700" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="text-xl font-bold text-white mb-2">The ATS Black Hole</h3>
+                        <p class="text-slate-400">75% of resumes are rejected by Applicant Tracking Systems (ATS) before a human ever sees them. Your skills don't matter if the machine says no.</p>
+                    </div>
+                    <div class="bg-slate-800/50 p-8 rounded-lg border border-slate-700" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="text-xl font-bold text-white mb-2">Generic Applications Fail</h3>
+                        <p class="text-slate-400">Recruiters spend 6 seconds on a resume. A one-size-fits-all application doesn't show why you're the perfect fit for *this specific* role.</p>
+                    </div>
+                    <div class="bg-slate-800/50 p-8 rounded-lg border border-slate-700" data-aos="fade-up" data-aos-delay="300">
+                        <h3 class="text-xl font-bold text-white mb-2">The Time Sink</h3>
+                        <p class="text-slate-400">Tailoring each resume and cover letter takes hours. You're forced to choose between quality and quantity, limiting your opportunities.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="py-20">
+            <div class="container mx-auto px-6">
+                 <div class="text-center mb-16" data-aos="fade-up">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Your Personal AI Career Strategist</h2>
+                    <p class="text-lg text-slate-400 mt-2 max-w-2xl mx-auto">Every feature is designed to give you an unfair advantage.</p>
+                </div>
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div data-aos="fade-right">
+                         <img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?q=80&w=2070&auto=format&fit=crop" alt="Professional working on a laptop" class="rounded-xl shadow-2xl">
+                    </div>
+                    <div class="space-y-8" data-aos="fade-left">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 h-12 w-12 rounded-full bg-indigo-500/20 text-indigo-400 flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" /></svg>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-bold text-white">Explainable AI & Control</h3>
+                                <p class="mt-1 text-slate-400">Our core promise. We show you exactly which part of the job description prompted each resume bullet. AI you can actually trust.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 h-12 w-12 rounded-full bg-indigo-500/20 text-indigo-400 flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-bold text-white">Privacy First & Authenticity</h3>
+                                <p class="mt-1 text-slate-400">Your data is yours. We offer end-to-end encryption and never fabricate skills or metrics. Enhance, don't invent.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                             <div class="flex-shrink-0 h-12 w-12 rounded-full bg-indigo-500/20 text-indigo-400 flex items-center justify-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" /></svg>
+                            </div>
+                            <div class="ml-4">
+                                <h3 class="text-lg font-bold text-white">Instant ATS-Optimized Content</h3>
+                                <p class="mt-1 text-slate-400">Generate professional-grade resume bullets and persuasive cover letters in seconds, all tailored to the job's specific needs.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-us" class="py-20 bg-slate-900/50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12" data-aos="fade-up">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">You're Not a Template. Your Resume Shouldn't Be Either.</h2>
+                </div>
+                 <div class="overflow-x-auto" data-aos="fade-up" data-aos-delay="200">
+                    <table class="w-full min-w-max text-left text-slate-400 rounded-lg">
+                        <thead class="text-sm text-white uppercase bg-slate-800">
+                            <tr>
+                                <th scope="col" class="px-6 py-4 rounded-tl-lg">Feature</th>
+                                <th scope="col" class="px-6 py-4 text-center">ResumeForge AI</th>
+                                <th scope="col" class="px-6 py-4 text-center">Generic Builders</th>
+                                <th scope="col" class="px-6 py-4 text-center rounded-tr-lg">Raw AI (ChatGPT)</th>
+                            </tr>
+                        </thead>
+                        <tbody class="bg-slate-800/50">
+                            <tr class="border-b border-slate-700">
+                                <td class="px-6 py-4 font-medium text-white">Explainable AI (Shows *why*)</td>
+                                <td class="px-6 py-4 text-center"><span class="text-2xl text-green-400">✓</span></td>
+                                <td class="px-6 py-4 text-center"><span class="text-2xl text-red-400">×</span></td>
+                                <td class="px-6 py-4 text-center"><span class="text-2xl text-red-400">×</span></td>
+                            </tr>
+                            <tr class="border-b border-slate-700">
+                                <td class="px-6 py-4 font-medium text-white">Fully Tailored Content</td>
+                                <td class="px-6 py-4 text-center"><span class="text-2xl text-green-400">✓</span></td>
+                                <td class="px-6 py-4 text-center"><span class="text-2xl text-red-400">×</span></td>
+                                <td class="px-6 py-4 text-center"><span class="text-2xl text-red-400">×</span></td>
+                            </tr>
+                            <tr class="border-b border-slate-700">
+                                <td class="px-6 py-4 font-medium text-white">Privacy & Data Control</td>
+                                <td class="px-6 py-4 text-center"><span class="text-2xl text-green-400">✓</span></td>
+                                <td class="px-6 py-4 text-center"><span class="text-2xl text-yellow-400">?</span></td>
+                                <td class="px-6 py-4 text-center"><span class="text-2xl text-red-400">×</span></td>
+                            </tr>
+                             <tr class="">
+                                <td class="px-6 py-4 font-medium text-white rounded-bl-lg">Authenticity Guarantee</td>
+                                <td class="px-6 py-4 text-center"><span class="text-2xl text-green-400">✓</span></td>
+                                <td class="px-6 py-4 text-center"><span class="text-2xl text-red-400">×</span></td>
+                                <td class="px-6 py-4 text-center rounded-br-lg"><span class="text-2xl text-red-400">×</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        
+        <section id="pricing" class="py-20">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12" data-aos="fade-up">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Start for Free. Upgrade When You're Ready.</h2>
+                    <p class="text-lg text-slate-400 mt-2">A simple, transparent pricing model to fuel your job search.</p>
+                </div>
+                <div class="grid lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                    <div class="bg-slate-800/50 p-8 rounded-lg border border-slate-700 flex flex-col" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="text-2xl font-bold text-white">Free</h3>
+                        <p class="text-4xl font-extrabold text-white my-4">$0 <span class="text-lg font-normal text-slate-400">/ forever</span></p>
+                        <p class="text-slate-400 mb-6">For casual job seekers getting started.</p>
+                        <ul class="space-y-3 text-slate-300 mb-8 flex-grow">
+                            <li class="flex items-center"><svg class="w-5 h-5 text-green-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>3 Tailored Applications / mo</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-green-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>3 Cover Letters / mo</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-green-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Basic ATS Scoring</li>
+                        </ul>
+                        <a href="#" class="w-full text-center bg-slate-700 hover:bg-slate-600 text-white font-semibold py-3 rounded-lg transition-colors">Get Started</a>
+                    </div>
+                    <div class="bg-indigo-600 p-8 rounded-lg border-2 border-indigo-500 shadow-2xl flex flex-col relative overflow-hidden transform scale-105" data-aos="fade-up">
+                        <span class="absolute top-0 right-0 bg-indigo-400 text-white text-xs font-bold px-3 py-1 rounded-bl-lg">MOST POPULAR</span>
+                        <h3 class="text-2xl font-bold text-white">Pro</h3>
+                        <p class="text-4xl font-extrabold text-white my-4">$19 <span class="text-lg font-normal text-indigo-200">/ month</span></p>
+                        <p class="text-indigo-200 mb-6">For active job seekers who want to maximize interviews.</p>
+                        <ul class="space-y-3 text-white mb-8 flex-grow">
+                            <li class="flex items-center"><svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Unlimited Applications</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Unlimited Cover Letters</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Advanced Analytics</li>
+                        </ul>
+                        <a href="#" class="w-full text-center bg-white hover:bg-slate-200 text-indigo-600 font-semibold py-3 rounded-lg transition-colors shadow-lg">Start Pro Trial</a>
+                    </div>
+                    <div class="bg-slate-800/50 p-8 rounded-lg border border-slate-700 flex flex-col" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="text-2xl font-bold text-white">Premium</h3>
+                        <p class="text-4xl font-extrabold text-white my-4">$39 <span class="text-lg font-normal text-slate-400">/ month</span></p>
+                        <p class="text-slate-400 mb-6">For those who want the ultimate career toolkit.</p>
+                        <ul class="space-y-3 text-slate-300 mb-8 flex-grow">
+                            <li class="flex items-center"><svg class="w-5 h-5 text-green-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>Everything in Pro, plus:</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-green-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>LinkedIn Profile Optimization</li>
+                            <li class="flex items-center"><svg class="w-5 h-5 text-green-400 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>AI Interview Prep Q&A</li>
+                        </ul>
+                        <a href="#" class="w-full text-center bg-slate-700 hover:bg-slate-600 text-white font-semibold py-3 rounded-lg transition-colors">Go Premium</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <section id="for-business" class="py-20 bg-slate-900/50">
+            <div class="container mx-auto px-6">
+                <div class="text-center mb-12" data-aos="fade-up">
+                    <h2 class="text-3xl md:text-4xl font-bold text-white">Empower Your Clients and Students to Succeed</h2>
+                </div>
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div class="bg-cover bg-center rounded-lg p-8 flex flex-col justify-end min-h-[300px] border border-slate-700" style="background-image: linear-gradient(rgba(2, 6, 23, 0.7), rgba(2, 6, 23, 0.7)), url('https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2232&auto=format&fit=crop')" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="text-xl font-bold text-white mb-2">For Career Coaches</h3>
+                        <p class="text-slate-300 mb-4">Manage multiple clients and deliver tailored documents in a fraction of the time.</p>
+                        <a href="#" class="font-semibold text-indigo-400 hover:text-indigo-300">Learn More &rarr;</a>
+                    </div>
+                    <div class="bg-cover bg-center rounded-lg p-8 flex flex-col justify-end min-h-[300px] border border-slate-700" style="background-image: linear-gradient(rgba(2, 6, 23, 0.7), rgba(2, 6, 23, 0.7)), url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=2070&auto=format&fit=crop')" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="text-xl font-bold text-white mb-2">For Universities</h3>
+                        <p class="text-slate-300 mb-4">Give your students a decisive edge in the competitive job market with a campus-wide license.</p>
+                        <a href="#" class="font-semibold text-indigo-400 hover:text-indigo-300">Request a Demo &rarr;</a>
+                    </div>
+                    <div class="bg-cover bg-center rounded-lg p-8 flex flex-col justify-end min-h-[300px] border border-slate-700" style="background-image: linear-gradient(rgba(2, 6, 23, 0.7), rgba(2, 6, 23, 0.7)), url('https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1974&auto=format&fit=crop')" data-aos="fade-up" data-aos-delay="300">
+                        <h3 class="text-xl font-bold text-white mb-2">For Recruiters</h3>
+                        <p class="text-slate-300 mb-4">Improve your submission-to-interview ratio by quickly optimizing candidate profiles.</p>
+                        <a href="#" class="font-semibold text-indigo-400 hover:text-indigo-300">Contact Sales &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-950 border-t border-slate-800">
+        <div class="container mx-auto px-6 py-12 text-center text-slate-400">
+            <a href="#" class="text-2xl font-bold text-white">
+                ResumeForge<span class="text-indigo-400">AI</span>
+            </a>
+            <div class="flex justify-center space-x-6 my-6">
+                <a href="#features" class="hover:text-indigo-400">Features</a>
+                <a href="#pricing" class="hover:text-indigo-400">Pricing</a>
+                <a href="#" class="hover:text-indigo-400">Privacy Policy</a>
+                <a href="#" class="hover:text-indigo-400">Terms of Service</a>
+            </div>
+            <p>&copy; 2025 ResumeForge AI. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // AOS Initialization
+        AOS.init({
+            duration: 800,
+            once: true,
+        });
+
+        // Mobile Menu
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Particles.js Config
+        particlesJS('particles-js', {
+            "particles": {
+                "number": { "value": 80, "density": { "enable": true, "value_area": 800 } },
+                "color": { "value": "#4f46e5" },
+                "shape": { "type": "circle", "stroke": { "width": 0, "color": "#000000" }, "polygon": { "nb_sides": 5 } },
+                "opacity": { "value": 0.5, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false } },
+                "size": { "value": 3, "random": true, "anim": { "enable": false, "speed": 40, "size_min": 0.1, "sync": false } },
+                "line_linked": { "enable": true, "distance": 150, "color": "#4f46e5", "opacity": 0.4, "width": 1 },
+                "move": { "enable": true, "speed": 2, "direction": "none", "random": false, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 1200 } }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": { "onhover": { "enable": true, "mode": "grab" }, "onclick": { "enable": true, "mode": "push" }, "resize": true },
+                "modes": { "grab": { "distance": 140, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 400, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } }
+            },
+            "retina_detect": true
+        });
+    </script>
+</body>
+</html>
